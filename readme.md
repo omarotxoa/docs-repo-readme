@@ -2,8 +2,8 @@
 <!-- Brief Description of the Website -->
 An e-commerce website built with WP and Woocommerce. 
 
-**Production**: website.com
-**Staging**: websitestag.wpengine.com
+**Production**: website.com  
+**Staging**: websitestag.wpengine.com  
 **Development**: websitedev.wpengine.com
 
 **Tech:** 
