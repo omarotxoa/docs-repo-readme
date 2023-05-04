@@ -20,7 +20,7 @@ An e-commerce website built with WP and Woocommerce.
 - Developer Docs
     
 ## Getting Started
-1. Review the Developer Docs before starting any project. 
+1. Review the Developer Docs before starting your first project. 
 2. Clone this repository using Bitbuckets clone button. Choose HTTPS. 
 
 
