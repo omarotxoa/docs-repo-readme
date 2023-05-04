@@ -25,6 +25,16 @@ An e-commerce website built with WP and Woocommerce.
 
 
 ### Clone this repo
-``` git clone https://bitbucket.org/
+``` git clone https://bitbucket.org/... ```
+
+## Git Reference
+
+**Add files to commit**
+```git add . ```
+
+**Make a commit**
+Remember to review our git commit guidelines in the developer docs. 
+```git commit -m "TASK-000: Updates Plugin to 1.1.2"```
+
 
 
