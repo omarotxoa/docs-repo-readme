@@ -41,6 +41,8 @@ git clone https://{$devname}@bitbucket.org/{$company}/{$projectname}.git .
 ```
 
 ## Git Quick Reference 
+Review the [Git Docs](#) for more information on alternate methods to the terminal.
+
 **Update branch**
 ```
 git checkout master
