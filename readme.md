@@ -27,8 +27,11 @@
 3. Clone this repository using Bitbuckets clone button at the top right of this repo. Choose HTTPS. 
 
 
-### Clone this repo
+### Clone this repo  
+The following will create a folder with the {$pojectname} in the current directory.  
 ``` git clone https://{$devname}@bitbucket.org/{$company}/{$projectname}.git ```
+To clone a repo into the current folder without creating another folder, add a dot at the end to designate the files should be cloned into the current folder  
+``` git clone https://{$devname}@bitbucket.org/{$company}/{$projectname}.git . ```
 
 ## Git Quick Reference 
 **Update branch**
@@ -46,14 +49,14 @@
 **Prepare single edited file to commit**  
 ```git add /path/to/file.php ```
 
-**Prepare all currently edited files to commit**
+**Prepare all currently edited files to commit**  
 ```git add .```
 
 **Make a commit**  
-Remember to review our [git commit guidelines](#) in the developer docs.   
+*Remember to review our [git commit guidelines](#) in the developer docs*.     
 ```git commit -m "TASK-000: Updates Plugin to 1.1.2"```
 
-**Push your changes up to the repo**
+**Push your changes up to the repo**  
 ```git push```
 
 
