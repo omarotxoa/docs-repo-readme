@@ -28,36 +28,51 @@
 
 
 ### Clone this repo  
-The following will create a folder with the {$pojectname} in the current directory.  
-``` git clone https://{$devname}@bitbucket.org/{$company}/{$projectname}.git ```
-To clone a repo into the current folder without creating another folder, add a dot at the end to designate the files should be cloned into the current folder  
-``` git clone https://{$devname}@bitbucket.org/{$company}/{$projectname}.git . ```
+The following will create a folder with the {$pojectname} in the current directory.
+
+``` 
+git clone https://{$devname}@bitbucket.org/{$company}/{$projectname}.git 
+```
+
+To clone a repo into the current folder without creating another folder, add a dot at the end to designate the files should be cloned into the current folder 
+
+``` 
+git clone https://{$devname}@bitbucket.org/{$company}/{$projectname}.git . 
+```
 
 ## Git Quick Reference 
 **Update branch**
-~~~
-    git checkout master
-    git pull
-~~~
+```
+git checkout master
+git pull
+```
 
 **Create your Task Branch**
 ```
-    git checkout master
-    git checkout -b TASK-123_Update_Plugins
+git checkout master
+git checkout -b TASK-123_Update_Plugins
 ```
 
-**Prepare single edited file to commit**  
-```git add /path/to/file.php ```
+**Prepare single edited file to commit**
+```
+git add /path/to/file.php 
+```
 
-**Prepare all currently edited files to commit**  
-```git add .```
+**Prepare all currently edited files to commit**
+```
+git add .
+```
 
 **Make a commit**  
 *Remember to review our [git commit guidelines](#) in the developer docs*.     
-```git commit -m "TASK-000: Updates Plugin to 1.1.2"```
+```
+git commit -m "TASK-000: Updates Plugin to 1.1.2"
+```
 
 **Push your changes up to the repo**  
-```git push```
+```
+git push
+```
 
 
 
