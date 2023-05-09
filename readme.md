@@ -1,10 +1,16 @@
 # Project Name
 <!-- Brief Description of the Website -->
-An e-commerce website built with WP and Woocommerce. 
+*An e-commerce website built with WP and Woocommerce*. 
 
+<!-- Quick Access Environment URLs -->
 **Production**: website.com  
 **Staging**: websitestag.wpengine.com  
 **Development**: websitedev.wpengine.com
+
+<!-- Quick Access Important Docs -->
+**Docs:**
+- Account Notes
+- Developer Docs
 
 **Tech:** 
 - Wordpress 
@@ -13,11 +19,7 @@ An e-commerce website built with WP and Woocommerce.
 **Plugins:** 
 - Woocommerce
 - WP Rocket
-- Shortpixel
-
-**Docs:**
-- Account Notes
-- Developer Docs
+- WPML
     
 ## Getting Started
 1. Review the Developer Docs before starting your first project. 
