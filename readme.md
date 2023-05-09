@@ -23,20 +23,36 @@
     
 ## Getting Started
 1. Review the [Developer Docs](#) before starting your first project. 
-2. Clone this repository using Bitbuckets clone button. Choose HTTPS. 
+2. Reference [Terminal Basics](#) and [Setup Your local Environment](#) sections.
+3. Clone this repository using Bitbuckets clone button at the top right of this repo. Choose HTTPS. 
 
 
 ### Clone this repo
-``` git clone https://bitbucket.org/... ```
+``` git clone https://{$devname}@bitbucket.org/{$company}/{$projectname}.git ```
 
-## Git Reference
+## Git Quick Reference 
+**Update branch**
+    git checkout master
+    git pull
 
-**Add files to commit**  
-```git add . ```
+**Create your Task Branch**
+    git checkout master
+    git checkout -b TASK-123_Update_Plugins
+
+**Prepare single edited file to commit**  
+```git add /path/to/file.php ```
+
+**Prepare all currently edited files to commit**
+```git add .```
 
 **Make a commit**  
 Remember to review our [git commit guidelines](#) in the developer docs.   
 ```git commit -m "TASK-000: Updates Plugin to 1.1.2"```
+
+**Push your changes up to the repo**
+``git push```
+
+**
 
 
 
