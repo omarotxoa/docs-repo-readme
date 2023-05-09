@@ -32,12 +32,16 @@
 
 ## Git Quick Reference 
 **Update branch**
+~~~
     git checkout master
     git pull
+~~~
 
 **Create your Task Branch**
+```
     git checkout master
     git checkout -b TASK-123_Update_Plugins
+```
 
 **Prepare single edited file to commit**  
 ```git add /path/to/file.php ```
@@ -50,9 +54,7 @@ Remember to review our [git commit guidelines](#) in the developer docs.
 ```git commit -m "TASK-000: Updates Plugin to 1.1.2"```
 
 **Push your changes up to the repo**
-``git push```
-
-**
+```git push```
 
 
 
