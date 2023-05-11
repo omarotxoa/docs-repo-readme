@@ -71,10 +71,55 @@ git add .
 git commit -m "TASK-000: Updates Plugin to 1.1.2"
 ```
 
-**Push your changes up to the repo**  
+**Push your Task branch up to the repo**  
+*Your branch TASK-XXX should always be available in the repo*
 ```
 git push
 ```
+
+**Merge your work into Dev and push**  
+*Pushing dev to the repo will activate auto deployment*
+```
+git checkout dev
+git pull dev
+git merge --no-ff TASK-XXX
+git push
+```
+
+## When a Task depends on another
+Scenario:  
+- Your first branch TASK-001 is up for review.
+- You want to start your second branch TASK-002 but it depends on the code in the TASK-001 branch.
+
+Steps:  
+1. Start your TASK-002 branch from TASK-001 branch.  
+```
+git checkout TASK-001
+git checkout -b TASK-002  
+```  
+
+Now you can start working on your task with the dependent code and continue with workflow as normal.
+
+2. If TASK-001 changes while in review, you merge it into TASK-002 and dev.    
+So lets say there was a bug you had to fix in TASK-001. You do your fix and make your commit:  
+```    
+git checkout TASK-001
+git add .
+git commit -m "TASK-001: Fixes some bug"  
+git push
+```  
+
+Because you made a change to TASK-001, we have to update dev and TASK-002:  
+```
+git checkout TASK-002
+git merge --no-ff TASK-001    
+
+git checkout dev
+git merge --no-ff TASK-001   
+``` 
+
+This publishes the new changes to dev for testing and brings TASK-002 up to date with the new changes and prevents conflicts later. Now if you have a change in TASK-002 you can merge into dev for testing without issues.If TASK-001 is up for review && TASK-002 is up for review, you can do the same for a TASK-003.  You just have to keep in mind that the more you do this, the more we will have to keep branches up to date by merging up and it can get confusing if we're not careful. So we would have to try and keep this at a minimum. What do you think? (edited) 
+
 
 
 
