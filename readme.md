@@ -86,12 +86,12 @@ git merge --no-ff TASK-XXX
 git push
 ```
 
-## When a Task depends on another
+## When a Task depends on code from another
 Scenario:  
 - Your first branch TASK-001 is up for review.
 - You want to start your second branch TASK-002 but it depends on the code in the TASK-001 branch.
 
-Steps:  
+**Steps:**    
 1. Start your TASK-002 branch from TASK-001 branch.  
 ```
 git checkout TASK-001
@@ -118,7 +118,7 @@ git checkout dev
 git merge --no-ff TASK-001   
 ``` 
 
-This publishes the new changes to dev for testing and brings TASK-002 up to date with the new changes and prevents conflicts later. Now if you have a change in TASK-002 you can merge into dev for testing without issues.If TASK-001 is up for review && TASK-002 is up for review, you can do the same for a TASK-003.  You just have to keep in mind that the more you do this, the more we will have to keep branches up to date by merging up and it can get confusing if we're not careful. So we would have to try and keep this at a minimum. What do you think? (edited) 
+This publishes the new changes to dev for testing and brings TASK-002 up to date with the new changes and prevents conflicts later. Now if you have a change in TASK-002 you can merge into dev for testing without issues.If TASK-001 is up for review && TASK-002 is up for review, you can do the same for a TASK-003.  You just have to keep in mind that the more you do this, the more we will have to keep branches up to date by merging up and it can get confusing if we're not careful. So try and keep this at a minimum to prevent confusion. Sometimes it might be better to give Testers and the Lead Developer time to review before moving on and getting too far ahead. 
 
 
 
