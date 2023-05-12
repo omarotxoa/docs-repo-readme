@@ -23,13 +23,7 @@
 
 
 ### Clone this repo  
-The following will create a folder with the {$pojectname} in the current directory.
-
-``` 
-git clone https://{$devname}@bitbucket.org/{$company}/{$projectname}.git 
-```
-
-To clone a repo into the current folder without creating another folder, add a dot at the end to designate the files should be cloned into the current folder 
+The line you copy from the Bitbucket clone button will create a folder with the {$pojectname} in your current directory. To clone a repo into the current directory without creating another folder, add a dot at the end to designate the files should be cloned into the current folder 
 
 ``` 
 git clone https://{$devname}@bitbucket.org/{$company}/{$projectname}.git . 
