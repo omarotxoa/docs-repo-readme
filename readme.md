@@ -14,7 +14,7 @@
 
 **Tech:** Wordpress, GeneratePress  
 
-**Plugins:** Woocommerce, WP Rocket, WPML
+**Plugins:** [Woocommerce](#), [WP Rocket](#), [WPML](#)
     
 ## Getting Started
 1. Review the [Developer Docs](#) before starting your first project. 
@@ -28,6 +28,14 @@ The line you copy from the Bitbucket clone button will create a folder with the 
 ``` 
 git clone https://{$devname}@bitbucket.org/{$company}/{$projectname}.git . 
 ```
+
+### Basic Workflow
+1. Every Task in JIRA should have its own branch. 
+2. You should push your task branch up to the repo and keep it updated. 
+3. Merge your task branch into Dev (will auto deploy) and assign to PM for testing.
+4. If PMs tests pass, prepare your code for review: Pull Request your Task branch to Staging/Master and assign to Lead Dev.
+
+For a more indepth look at our Workflow, review the [Company Docs](#).
 
 ## Git Quick Reference 
 Review the [Git Docs](#) for more information on alternate methods to the terminal.
