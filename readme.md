@@ -12,14 +12,9 @@
 - [Account Notes](#)
 - [Developer Docs](#)
 
-**Tech:** 
-- Wordpress 
-- GeneratePress
+**Tech:** Wordpress, GeneratePress  
 
-**Plugins:** 
-- Woocommerce
-- WP Rocket
-- WPML
+**Plugins:** Woocommerce, WP Rocket, WPML
     
 ## Getting Started
 1. Review the [Developer Docs](#) before starting your first project. 
