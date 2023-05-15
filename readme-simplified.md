@@ -100,6 +100,13 @@ git merge --no-ff TASK-XXX
 git push
 ```
 
+## Change your commit message  
+If you need to edit your commit message, you can edit the last commit message using the --amend flag:     
+```
+git commit --amend
+```   
+This will open a new file in your editor with the commit message up top. Edit the message, save, and close the file. Editing messages that are further down in the repo history is a bit more complex. Reference the docs.  
+
 ## When a Task depends on code from another
 Scenario:  
 - Your first branch TASK-001 is up for review.
