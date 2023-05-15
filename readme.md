@@ -38,7 +38,7 @@ git clone https://{$devname}@bitbucket.org/{$company}/{$projectname}.git .
 *For a more indepth look at our Workflow, review the [Company Docs](#)*.
 
 ## Git Quick Reference 
-Review the [Git Docs](#) for more information on alternate methods to the terminal.
+Review the [Git Docs](#) for more information.  
 
 **Update branch**
 ```
@@ -116,7 +116,7 @@ git checkout dev
 git merge --no-ff TASK-001   
 ``` 
 
-This publishes the new changes to dev for testing and brings TASK-002 up to date with the new changes and prevents conflicts later. Now if you have a change in TASK-002 you can merge into dev for testing without issues.If TASK-001 is up for review && TASK-002 is up for review, you can do the same for a TASK-003.  You just have to keep in mind that the more you do this, the more we will have to keep branches up to date by merging up and it can get confusing if we're not careful. So try and keep this at a minimum to prevent confusion. Sometimes it might be better to give Testers and the Lead Developer time to review before moving on and getting too far ahead. 
+This publishes the new changes to dev for testing and brings TASK-002 up to date with the new changes and prevents conflicts later. Now if you have a change in TASK-002 you can merge into dev for testing without issues. If TASK-001 is up for review && TASK-002 is up for review, you can do the same for a TASK-003.  You just have to keep in mind that the more you do this, the more we will have to keep branches up to date by merging up and it can get confusing if we're not careful. So try and keep this at a minimum to prevent confusion. Sometimes it might be better to give Testers and the Lead Developer time to review before moving on and getting too far ahead. 
 
 
 
