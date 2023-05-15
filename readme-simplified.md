@@ -15,14 +15,7 @@
 ## Getting Started
 1. Review the [Developer Docs](#) before starting your first project. 
 2. Reference [Terminal Basics](#) and [Setup Your local Environment](#) sections.
-3. Clone this repository using Bitbuckets clone button at the top right of this repo. Choose HTTPS. 
-
-### Clone this repo  
-The line you copy from the Bitbucket clone button will create a folder with the {$pojectname} in your current directory. To clone a repo into the current directory without creating another folder, add a dot at the end to designate the files should be cloned into the current folder 
-
-``` 
-git clone https://{$devname}@bitbucket.org/{$company}/{$projectname}.git . 
-```
+3. Clone this repository using Bitbuckets clone button at the top right of this repo. Choose HTTPS.  
 
 ### Basic Workflow
 1. Every Task in JIRA should have its own branch. 
@@ -33,7 +26,7 @@ git clone https://{$devname}@bitbucket.org/{$company}/{$projectname}.git .
 *For a more indepth look at our Workflow, review the [Example Workflow](#)* section of the developer docs.
 
 ## Git Quick Reference 
-Review the [Git Docs](#) for more information on alternate methods to the terminal.  
+Review the [Git Docs](#) for more information.  
 
 **Update branch**
 ```
