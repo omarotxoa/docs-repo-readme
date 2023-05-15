@@ -11,12 +11,30 @@
 **Docs:**
 - [Account Notes](#)
 - [Developer Docs](#)
+<<<<<<< HEAD
+=======
+
+**Tech:** Wordpress, GeneratePress  
+
+**Plugins:** [Woocommerce](#), [WP Rocket](#), [WPML](#)
+>>>>>>> 9a165c8 (Creates the simplified file. Removes tech, plugins, and repo clone section)
     
 ## Getting Started
 1. Review the [Developer Docs](#) before starting your first project. 
 2. Reference [Terminal Basics](#) and [Setup Your local Environment](#) sections.
 3. Clone this repository using Bitbuckets clone button at the top right of this repo. Choose HTTPS. 
 
+<<<<<<< HEAD
+=======
+
+### Clone this repo  
+The line you copy from the Bitbucket clone button will create a folder with the {$pojectname} in your current directory. To clone a repo into the current directory without creating another folder, add a dot at the end to designate the files should be cloned into the current folder 
+
+``` 
+git clone https://{$devname}@bitbucket.org/{$company}/{$projectname}.git . 
+```
+
+>>>>>>> 9a165c8 (Creates the simplified file. Removes tech, plugins, and repo clone section)
 ### Basic Workflow
 1. Every Task in JIRA should have its own branch. 
 2. You should push your task branch up to the repo and keep it updated. 
