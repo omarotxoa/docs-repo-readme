@@ -37,6 +37,18 @@ git clone https://{$devname}@bitbucket.org/{$company}/{$projectname}.git .
 
 *For a more indepth look at our Workflow, review the [Company Docs](#)*.
 
+## Install NPM / Run Gulp
+We use gulp on most of our projects. While the commands may vary from project to project, installing and setting up is the same:
+```
+npm install
+```
+After installing, reference the package.json and gulpfile.js to check for commands. Some common ones are as follows:
+- `npm run start`
+- `npm run gulp`
+- `gulp`
+
+We are working on normalizing commands accross all installs. For, if you need help, contact the Lead/Senior Dev.
+
 ## Git Quick Reference 
 Review the [Git Docs](#) for more information.  
 
