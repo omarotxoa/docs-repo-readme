@@ -17,10 +17,6 @@
 2. Reference [Terminal Basics](#) and [Setup Your local Environment](#) sections.
 3. Clone this repository using Bitbuckets clone button at the top right of this repo. Choose HTTPS. 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
 ### Clone this repo  
 The line you copy from the Bitbucket clone button will create a folder with the {$pojectname} in your current directory. To clone a repo into the current directory without creating another folder, add a dot at the end to designate the files should be cloned into the current folder 
 
