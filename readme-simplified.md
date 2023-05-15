@@ -12,18 +12,22 @@
 - [Account Notes](#)
 - [Developer Docs](#)
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 
 **Tech:** Wordpress, GeneratePress  
 
 **Plugins:** [Woocommerce](#), [WP Rocket](#), [WPML](#)
 >>>>>>> 9a165c8 (Creates the simplified file. Removes tech, plugins, and repo clone section)
+=======
+>>>>>>> a2407668b953fce94def1122de85637743cc0467
     
 ## Getting Started
 1. Review the [Developer Docs](#) before starting your first project. 
 2. Reference [Terminal Basics](#) and [Setup Your local Environment](#) sections.
 3. Clone this repository using Bitbuckets clone button at the top right of this repo. Choose HTTPS. 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 
@@ -35,6 +39,8 @@ git clone https://{$devname}@bitbucket.org/{$company}/{$projectname}.git .
 ```
 
 >>>>>>> 9a165c8 (Creates the simplified file. Removes tech, plugins, and repo clone section)
+=======
+>>>>>>> a2407668b953fce94def1122de85637743cc0467
 ### Basic Workflow
 1. Every Task in JIRA should have its own branch. 
 2. You should push your task branch up to the repo and keep it updated. 
@@ -44,7 +50,11 @@ git clone https://{$devname}@bitbucket.org/{$company}/{$projectname}.git .
 *For a more indepth look at our Workflow, review the [Example Workflow](#)* section of the developer docs.
 
 ## Git Quick Reference 
+<<<<<<< HEAD
 Review the [Git Docs](#) for more information.  
+=======
+Review the [Git Docs](#) for more information on alternate methods to the terminal.
+>>>>>>> a2407668b953fce94def1122de85637743cc0467
 
 **Update branch**
 ```
@@ -122,7 +132,11 @@ git checkout dev
 git merge --no-ff TASK-001   
 ``` 
 
+<<<<<<< HEAD
 This publishes the new changes to dev for testing and brings TASK-002 up to date with the new changes and prevents conflicts later. Now if you have a change in TASK-002 you can merge into dev for testing without issues. If TASK-001 is up for review && TASK-002 is up for review, you can do the same for a TASK-003.  You just have to keep in mind that the more you do this, the more we will have to keep branches up to date by merging up and it can get confusing if we're not careful. So try and keep this at a minimum to prevent confusion. Sometimes it might be better to give Testers and the Lead Developer time to review before moving on and getting too far ahead. 
+=======
+This publishes the new changes to dev for testing and brings TASK-002 up to date with the new changes and prevents conflicts later. Now if you have a change in TASK-002 you can merge into dev for testing without issues.If TASK-001 is up for review && TASK-002 is up for review, you can do the same for a TASK-003.  You just have to keep in mind that the more you do this, the more we will have to keep branches up to date by merging up and it can get confusing if we're not careful. So try and keep this at a minimum to prevent confusion. Sometimes it might be better to give Testers and the Lead Developer time to review before moving on and getting too far ahead. 
+>>>>>>> a2407668b953fce94def1122de85637743cc0467
 
 
 
