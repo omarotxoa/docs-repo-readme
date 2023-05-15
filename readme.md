@@ -69,9 +69,10 @@ git commit -m "TASK-000: Updates Plugin to 1.1.2"
 ```
 
 **Push your Task branch up to the repo**  
-*Your branch TASK-XXX should always be available in the repo*
+*Your branch TASK-XXX should always be available in the repo. If its your first time pushing the branch up to the repo, you'll have to set upstream*
 ```
 git push
+git push --set-upstream origin TASK-000
 ```
 
 **Merge your work into Dev and push**  

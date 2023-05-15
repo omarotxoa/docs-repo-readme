@@ -41,7 +41,7 @@ git clone https://{$devname}@bitbucket.org/{$company}/{$projectname}.git .
 3. Merge your task branch into Dev (will auto deploy) and assign to PM for testing.
 4. If PMs tests pass, prepare your code for review: Pull Request your Task branch to Staging/Master and assign to Lead Dev.
 
-*For a more indepth look at our Workflow, review the [Company Docs](#)*.
+*For a more indepth look at our Workflow, review the [Example Workflow](#)* section of the developer docs.
 
 ## Git Quick Reference 
 Review the [Git Docs](#) for more information on alternate methods to the terminal.
@@ -75,9 +75,10 @@ git commit -m "TASK-000: Updates Plugin to 1.1.2"
 ```
 
 **Push your Task branch up to the repo**  
-*Your branch TASK-XXX should always be available in the repo*
+*Your branch TASK-XXX should always be available in the repo. If its your first time pushing the branch up to the repo, you'll have to set upstream*
 ```
 git push
+git push --set-upstream origin TASK-000
 ```
 
 **Merge your work into Dev and push**  
