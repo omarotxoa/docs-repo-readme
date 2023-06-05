@@ -1,21 +1,20 @@
-# Project Name
+# GK - Tuffman Equipment
 <!-- Brief Description of the Website -->
 *An e-commerce website built with WP and Woocommerce*. 
 
 <!-- Quick Access Environment URLs -->
-**Production**: [website.com](#)  
-**Staging**: [websitestag.wpengine.com](#)  
-**Development**: [websitedev.wpengine.com](#)
+**Production**: [website.com](https://www.projectwebsite.com/)  
+**Staging**: [websitestag.wpengine.com](https://projectwebsitestg.wpengine.com/)  
+**Devg**: [websitedev.wpengine.com](https://projectwebsitedev.wpengine.com/)  
 
 <!-- Quick Access Important Docs -->
-**Docs:**
-- [Account Notes](#)
+**Docs:**  
+- [Account Notes](#)  
 - [Developer Docs](#)
     
 ## Getting Started
-1. Review the [Developer Docs](#) before starting your first project. 
-2. Reference [Terminal Basics](#) and [Setup Your local Environment](#) sections.
-3. Clone this repository using Bitbuckets clone button at the top right of this repo. Choose HTTPS.  
+1. Review the Developer Docs before starting your first project. 
+2. Clone this repository using Bitbuckets clone button at the top right of this repo. Choose preferred method.  
 
 ### Basic Workflow
 1. Every Task in JIRA should have its own branch. 
@@ -23,10 +22,10 @@
 3. Merge your task branch into Dev (will auto deploy) and assign to PM for testing.
 4. If PMs tests pass, prepare your code for review: Pull Request your Task branch to Staging/Master and assign to Lead Dev.
 
-*For a more indepth look at our Workflow, review the [Example Workflow](#)* section of the developer docs.
+*For a more indepth look at our Workflow, review the [Workflow](#)* section of the developer docs.
 
 ## Git Quick Reference 
-Review the [Git Docs](#) for more information.  
+Review the [Git Guidelines](#) for more information.  
 
 **Update branch**
 ```
@@ -78,6 +77,12 @@ If you need to edit your commit message, you can edit the last commit message us
 git commit --amend
 ```   
 This will open a new file in your editor with the commit message up top. Edit the message, save, and close the file. Editing messages that are further down in the repo history is a bit more complex. Reference the docs.  
+
+## Revert / Undo a commit
+If a task is cancelled or you need to undo a commit, you can use the revert command. Reference [this article](https://www.theserverside.com/tutorial/How-to-git-revert-a-commit-A-simple-undo-changes-example) for more information.   
+```
+git revert asd1234
+```
 
 ## When a Task depends on code from another
 Scenario:  
